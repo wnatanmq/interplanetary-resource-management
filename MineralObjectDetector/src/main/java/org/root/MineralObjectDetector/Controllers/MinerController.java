@@ -1,4 +1,4 @@
-package org.root.MineralObjectDetector.controller;
+package org.root.MineralObjectDetector.Controllers;
 
 
 import org.slf4j.Logger;

@@ -1,7 +1,16 @@
-package org.root.MineralObjectDetector.entity;
+package org.root.MineralObjectDetector.Models;
 
-public class MineralDetector {
+import java.io.Serializable;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
+@Entity()
+public class MineralDetectorDto implements Serializable  {
+    
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
     private String MinerDetectorId;
     private String Status;
     private int LastTimestampChanges;

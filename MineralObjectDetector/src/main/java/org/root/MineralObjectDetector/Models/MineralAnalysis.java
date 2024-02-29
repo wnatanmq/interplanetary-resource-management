@@ -1,4 +1,4 @@
-package org.root.MineralObjectDetector.entity;
+package org.root.MineralObjectDetector.Models;
 
 import java.util.List;
 
