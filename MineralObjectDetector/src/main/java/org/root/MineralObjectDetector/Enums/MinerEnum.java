@@ -1,7 +1,7 @@
 package org.root.MineralObjectDetector.Enums;
 
 public class MinerEnum {
-    public enum Status{
+    public enum Status{ 
         INACTIVE(0),
         OPERANT(1),
         INOPERANT(2),
