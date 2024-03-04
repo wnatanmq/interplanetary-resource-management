@@ -1,0 +1,18 @@
+{
+    "type": "record",
+    "name": "MinerDetectorLiveSignals",
+    "fields": [
+        {
+            "name": "MinerDetectorId",
+            "type": "string"
+        },
+        {
+            "name": "Status",
+            "type": "string"
+        },
+        {
+            "name": "LastTimestampChanges",
+            "type": "int"
+        }
+    ]   
+}
