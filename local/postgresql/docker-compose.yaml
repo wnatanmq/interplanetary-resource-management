@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres
+    volumes:
+      - ./scripts/migration_001.sql:/docker:/docker-entrypoint-initdb.d/migration_001.sql
+    environment:
+      POSTGRES_USER: "the_boss"
+      POSTGRES_PASSWORD: "q5LeDfHEJei55qVsXAJQOEJ4Jw5iyw"
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres-compose-network

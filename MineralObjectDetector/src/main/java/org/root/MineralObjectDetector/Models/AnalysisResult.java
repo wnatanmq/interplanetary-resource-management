@@ -1,9 +1,16 @@
-package org.root.MineralObjectDetector.entity;
+package org.root.MineralObjectDetector.Models;
 
 public class AnalysisResult {
     private String Material;
     private float Percentual;
 
+    public AnalysisResult(String material, float percentual) {
+        Material = material;
+        Percentual = percentual;
+    }
+
+    public AnalysisResult() {}
+    
     public String getMaterial() {
         return Material;
     }
@@ -19,4 +26,5 @@ public class AnalysisResult {
     public void setPercentual(float percentual) {
         Percentual = percentual;
     }
+
 }
